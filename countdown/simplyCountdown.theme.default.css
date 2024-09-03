@@ -1,6 +1,7 @@
 .simply-countdown{
     overflow:hidden;
-    display:table;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
     margin: auto;
 }
 .simply-countdown>.simply-section{
